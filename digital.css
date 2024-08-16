@@ -1,0 +1,28 @@
+/* Navigation Bar Styling */
+ol {list-style-type:none; margin:0; padding:0;}
+li {display:inline;}
+li {float:right;}
+li {display:block; padding:8px;}
+ul {position: fixed; top: 0; width: 100%;}
+a {color:whitesmoke; font-size: 25px; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;}
+a {margin-right: 100px;}
+/* Hovering over Navigation Bar */
+a:hover {color:rgb(143, 243, 238)}
+
+
+/* Image */
+img {margin-top: 150px; margin-left: 100px;}
+
+/* Projects */
+video {margin-left: 100px; margin-right: 50px;}
+audio {margin-left: 100px; margin-right: 50px;}
+
+/* Skills Table */
+h1 {margin-top: 125px; margin-left: 100px; margin-right: 50px; font-family:Georgia, 'Times New Roman', Times, serif; font-size:30px; color:white}
+p, h3 {margin-left: 100px; margin-right: 50px; font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; color:white}
+a:hover {color:rgb(143, 243, 238)}
+table {margin-left: 550px; margin-right:50px; font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; color:white}
+th {text-decoration: underline;}
+
+/* Contact Form */
+form {float: center; margin-top: 150px; margin-left: 100px; margin-right: 50px; font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; color:white}

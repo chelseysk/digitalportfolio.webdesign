@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Order a Pizza</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="/pizza.css">
+    <style>
+        body {background-image: url(/royaltyfreepizza2.jpeg); background-repeat:no-repeat; background-attachment: fixed; background-size: 100% 100%;}
+        .form {color:azure}
+    </style>
+
+<h1>Order Here</h1>
+
+<body>
+        <form>
+            <div class="form"></div>
+        <form action="/form-script.php" method="post"></form>
+            <fieldset>
+                <legend>Order a Pizza</legend>
+
+                <label for="name">Name:</label><br>
+                <input type="text" name="user_name"> <br><br>
+
+                <label for="mail">Email:</label><br>
+                <input type="mail" name="user_mail"><br><br>
+
+                <label for="Number">Phone Number:</label><br>
+                <input type="tel" name="user_number"><br><br>
+
+                <label for="radio">Choose Your Size:</label><br>
+                <input type="radio" name="user_size">Small 10-inch<br>
+                <input type="radio" name="user_size">Medium 12-inch<br>
+                <input type="radio" name="user_size">Large 14-inch<br>
+                <input type="radio" name="user_size">Large 16-inch<br><br>
+
+                <label for="radio" name="user_sauce">Choose Your Sauce:</label><br>
+                <input type="radio" name="user_sauce">Tomato Sauce<br>
+                <input type="radio" name="user_sauce">Pesto Sauce<br>
+                <input type="radio" name="user_sauce">Alfredo Sauce<br>
+                <input type="radio" name="user_sauce">No Sauce<br><br>
+
+                <label for="radio" name="user_toppings">Choose Your Toppings:</label><br>
+                <input type="radio" name="user_toppings">Pepperoni<br>
+                <input type="radio" name="user_toppings">Sausage<br>
+                <input type="radio" name="user_toppings">Ham<br>
+                <input type="radio" name="user_toppings">Chicken<br>
+                <input type="radio" name="user_toppings">Basil<br>
+                <input type="radio" name="user_toppings">Mushrooms<br>
+                <input type="radio" name="user_toppings">Onions<br>
+                <input type="radio" name="user_toppings">Bell Peppers<br>
+                <input type="radio" name="user_toppings">Pineapple<br>
+                <input type="radio" name="user_toppings">Spinach<br>
+                <input type="radio" name="user_toppings">Extra Cheese<br>
+                <input type="radio" name="user_toppings">No Toppings<br><br>
+
+                <input type="submit" value="Submit">
+
+
+            </fieldset>
+        </form>
+</body>
+</html>
